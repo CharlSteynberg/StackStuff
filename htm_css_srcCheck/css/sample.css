@@ -1,0 +1,20 @@
+
+	@font-face
+	{
+		font-family:'wasted';
+		src:url('../fnt/wasted.ttf');
+	}
+
+   .floor
+   { background:url('../img/floor.jpg'); }
+
+   .font-wasted
+   {
+      font-size:6em;
+      font-family:wasted;
+      color:#BBB;
+      text-shadow:-1px -1px 0px #FFF, 5px 5px 5px #000;
+   }
+
+   .faker
+   { background:url('some/bug.ded'); }

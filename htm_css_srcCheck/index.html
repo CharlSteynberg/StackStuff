@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script src="lib/validate_srcPaths.js"></script>
+        <script>
+            var uri = 'htm/stuff.html';
+            var uri = 'css/sample.css';
+
+            check_file(uri, function(err, pth)
+            {
+                if (err)
+                { document.write('Aw Snap! "'+pth+'" is missing !'); }
+            });
+        </script>
+    </head>
+    <body></body>
+</html>
